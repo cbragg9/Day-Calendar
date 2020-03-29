@@ -69,3 +69,10 @@ textarea{
     font-size: 20px;
     transition: all .3s ease-in-out;
 }
+
+.time-display {
+    border-top: 1px solid black;
+    padding-top: 5px;
+    line-height: 70px;
+    vertical-align: middle;
+}
