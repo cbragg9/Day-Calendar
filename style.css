@@ -76,3 +76,7 @@ textarea{
     line-height: 70px;
     vertical-align: middle;
 }
+
+.spacing {
+    margin-top: 50px;
+}

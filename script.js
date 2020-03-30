@@ -23,4 +23,14 @@ $( document ).ready(function() {
         var textAreaContents = $("#" + id + "-time-row").val();
         localStorage.setItem(id, textAreaContents);
     });
+
+    // Display local storage contents for corresponding time
+    displayStorage();
+    function displayStorage() {
+        for (var i=0; i < timeOptions.length; i++) {
+            var storageContents = localStorage.getItem(timeOptions[i]);
+            $("#" + timeOptions[i] + "-time-row").html(storageContents);
+        }
+    };
+
 });
