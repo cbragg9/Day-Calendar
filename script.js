@@ -33,4 +33,10 @@ $( document ).ready(function() {
         }
     };
 
+    // On button click clear storage and re-display empty textareas
+    $(".clear").on("click", function(event) {
+        localStorage.clear();
+        displayStorage();
+    });
+
 });

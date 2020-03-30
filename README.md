@@ -2,10 +2,11 @@
 Work Day Planner  
 
 # Latest Commit  
--Added function to display local storage contents for corresponding time
--Added empty div on bottom for spacing  
+-Added button to clear local storage and all textareas  
 
 # Previous Commits  
+-Added function to display local storage contents for corresponding time  
+-Added empty div on bottom for spacing  
 -Added function to save corresponding text area to local storage on save button click  
 -Set currentDay ID to current date  
 -Created function to change text area color (through class) depending on past/present/future  
